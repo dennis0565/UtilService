@@ -84,8 +84,8 @@ public class ALiYunTranslate {
         // Configure Credentials authentication information, including ak, secret, token
         StaticCredentialProvider provider = StaticCredentialProvider.create(Credential.builder()
                 // Please ensure that the environment variables ALIBABA_CLOUD_ACCESS_KEY_ID and ALIBABA_CLOUD_ACCESS_KEY_SECRET are set.
-                .accessKeyId("LTAI5tK7S8K4NiTvpvuohVXR")
-                .accessKeySecret("fIaYJRDZ7gTUnlZpRxProtjjew9ThN")
+                .accessKeyId("xxx")
+                .accessKeySecret("xxx")
                 //.securityToken(System.getenv("ALIBABA_CLOUD_SECURITY_TOKEN")) // use STS token
                 .build());
 
